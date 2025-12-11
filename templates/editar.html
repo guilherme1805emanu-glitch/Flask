@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+    <form method="post">
+        <label for="nome">Nome do usuario</label>
+        <input 
+            type="text" 
+            placeholder="Coloque seu novo nome" 
+            id="nome" 
+            name="nome"
+            value="{{ usuarios['nome'] }}"
+            required
+        >
+        <label for="nome">Endereço do Usuário</label>
+        <input 
+            type="text" 
+            placeholder="Coloque seu novo endereço" 
+            id="endereço" 
+            name="endereço"
+            value="{{ usuarios['endereço'] }}"
+            required
+        >
+        <button type="submit">Enviar</button>
+    </form>
+
+    {% endblock %}

@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+}
+
+.box {
+    background-color: #FF0064;
+    padding: 50px;
+    border: 3px solid blue;
+    margin: 10px;
+    display: inline-block;
+}
+
+.destaque {
+    padding: 50px;
+    border: 3px solid #FF0064;
+    margin: 10px;
+    display: inline-block;
+    background-color: #6400ff;
+}
+
+button{
+    background-color: #6400ff;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 5px;
+    border-radius:5px; ;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+nav {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.titulo {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.menu {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+p{
+    color: black;
+}
